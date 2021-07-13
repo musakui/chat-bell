@@ -25,5 +25,9 @@ export const init = async ({ channel, ignore, volume, url }) => {
   })
 }
 
+if (!window.location.search) {
+  document.querySelector('form').style.display = 'block'
+} else {
 const params = new URLSearchParams(window.location.search)
 init(Object.fromEntries('channel,ignore,volume,url'.split(',').map((n) => [n, params.get(n)])))
+}

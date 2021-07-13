@@ -6,6 +6,20 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
  <title>Chat Bell</title>
  
-<script type="module" crossorigin src="/chat-bell/index.9eb42ce7.js"></script>
+<script type="module" crossorigin src="/chat-bell/index.2f9cb948.js"></script>
 </head>
+<body>
+  <form method="GET" style="display:none">
+    <label for="chan">
+      Channel Name: <input id="chan" name="channel" />
+    </label>
+    <label for="ign">
+      Ignored Users: <input id="ign" name="ignore" />
+    </label>
+    <label for="vol">
+      Volume: <input id="vol" type="number" name="volume" min="0" max="1" step="0.01" />
+    </label>
+    <input type="submit" value="ok" />
+  </form>
+</body>
 </html>

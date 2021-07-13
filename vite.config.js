@@ -1,4 +1,5 @@
 export default {
+  base: '/chat-bell',
   build: {
     target: 'chrome74',
     assetsDir: '.',

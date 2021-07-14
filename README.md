@@ -1,4 +1,5 @@
 # chat bell
+> ﾁﾘﾝﾁﾘﾝ
 
 ## Setup
 1. go to the main page: https://musakui.github.io/chat-bell/
@@ -7,10 +8,10 @@
 | param | description |
 | ----- | ----------- |
 | `channel` | your Twitch channel name (e.g. `weathernewslive`) |
-| `ignore`  | usernames to ignore (e.g. `streamelements,nightbot`) |
+| `ignore`  | usernames to ignore (e.g. `streamelements nightbot`) |
 | `volume`  | volume of the bell (0-1) |
 
-3. click `go`
+3. click `ok`
 4. save the final URL
 5. (optional) add to OBS as Browser Source or Custom Browser Dock
 

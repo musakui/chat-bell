@@ -10,7 +10,7 @@ const createItem = ({ user, text, tags }) => {
 
 export const init = async (opts) => {
   if (!opts.channel) return
-  const sound = new Audio(opts.url || '/chirin.mp3')
+  const sound = new Audio(opts.url || (import.meta.env.BASE_URL + 'chirin.mp3'))
   if (opts.volume) { sound.volume = parseFloat(opts.volume) }
   const list = document.createElement(opts.el || 'ul')
   const chan = opts.channel.toLowerCase()

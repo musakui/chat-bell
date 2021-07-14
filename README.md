@@ -1,6 +1,8 @@
 # chat bell
 > ﾁﾘﾝﾁﾘﾝ
 
+[日本語の説明はこちら](README.ja.md)
+
 ## Setup
 1. go to the main page: https://musakui.github.io/chat-bell/
 2. configure:

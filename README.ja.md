@@ -1,6 +1,9 @@
 # チャット・ベール
 > ﾁﾘﾝﾁﾘﾝ
 
+翻訳提供: [L4yLa](https://github.com/L4yLa/)
+([ReceptionBot](https://github.com/L4yLa/TwitchBots/tree/main/ReceptionBot))
+
 ## 設定方法
 1. ここにアクセス: https://musakui.github.io/chat-bell/
 2. 設定:

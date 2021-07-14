@@ -1,0 +1,28 @@
+main {
+  margin: 10px;
+}
+
+h1 {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+label {
+  display: block;
+  margin: 5px;
+}
+
+label span {
+  display: inline-block;
+  width: 70px;
+}
+
+input {
+  padding: 3px;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  padding: 5px 15px;
+}

@@ -19,6 +19,7 @@ export const init = async (opts) => {
   if (igns) {
     console.log('ignore:', igns.split(/[, ]/).map((i) => (seen.add(i), i)))
   }
+  const glowDuration = (opts.glows || 15) * 1000
 
   let res = null
   const start = document.querySelector('a')
@@ -39,7 +40,9 @@ export const init = async (opts) => {
     seen.add(evt.user)
     sound.play()
     console.log('NEW', [evt.user, evt.text])
-    list.appendChild(createItem(evt))
+    const li = createItem(evt)
+    list.appendChild(li)
+    setTimeout(() => li.classList.add('done'), glowDuration)
     setTimeout(() => { list.scrollTop = list.scrollHeight }, 100)
   }
 }
